@@ -127,7 +127,7 @@ main::before {
 .msg { 
     display: flex;
     animation: fadeIn 0.3s ease-out;
-    padding: 0 15%;
+    padding: 0 5%;
     position: relative;
     min-height: 60px;
 }
@@ -142,8 +142,13 @@ main::before {
     font-size: 15px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    width: fit-content;
+    height: fit-content;
     box-shadow: 0 6px 18px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
+    margin-bottom: 30px;
 }
 .bubble:hover {
     transform: translateY(-2px);
