@@ -1,6 +1,6 @@
 # Frontend - RAG Chatbot
 
-This is the **frontend** of the RAG Chatbot project, built with **React + Vite + Tailwind**.
+This is the **frontend** of the RAG Chatbot project, built with **React + Vite + SCSS**.
 
 ---
 
@@ -15,7 +15,7 @@ This is the **frontend** of the RAG Chatbot project, built with **React + Vite +
 ## 📦 Tech Stack
 - **React 18**
 - **Vite**
-- **TailwindCSS**
+- **SCSS**
 - **Axios** (for API calls)
 
 ---
