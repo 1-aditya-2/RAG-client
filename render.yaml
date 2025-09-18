@@ -1,6 +1,7 @@
 services:
   - type: web
     name: rag-news-frontend
+    plan: free
     buildCommand: "npm install && npm run build"
     staticPublishPath: dist
     envVars:
